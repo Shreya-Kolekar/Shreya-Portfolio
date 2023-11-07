@@ -134,6 +134,30 @@
         width: 139px;
         font-size: 13px;
       }
+
+      footer {
+        background-color: rgb(19 19 79);
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul{
+        list-style-type: none;
+      }
+
+      .footer > div {
+        width: 223px;
+      }
+
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
     </style>
   </head>
   <body>
@@ -173,19 +197,46 @@
           <div class="vertical">
             <img class="image-top" src="avatar.png" alt="img not found" />
             <div class="vertical-title">
-              Junior Software Engineer <br> (2021-2022)
+              Junior Software Engineer <br />
+              (2021-2022)
             </div>
             <div class="vertical-desc">Lorem ipsum dolor sit amet.</div>
           </div>
 
           <div class="vertical">
             <img class="image-top" src="avatar.png" alt="img not found" />
-            <div class="vertical-title">Masters in ITM at UTD <br> (2023-2024)</div>
+            <div class="vertical-title">
+              Masters in ITM at UTD <br />
+              (2023-2024)
+            </div>
             <div class="vertical-desc">Lorem ipsum dolor sit amet.</div>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Shreya's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+        <div class="footer-fourth"></div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169 www.shreyasportfolio.com | All rights reserved
+      </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {

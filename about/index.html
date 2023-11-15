@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hi! About page.</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(41, 41, 171);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(163, 100, 221);
+        font-size: 1.02rem;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      footer {
+        background-color: rgb(19 19 79);
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul{
+        list-style-type: none;
+      }
+
+      .footer > div {
+        width: 223px;
+      }
+
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shreya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <footer>
+        <div class="footer">
+          <div class="footer-first">
+            <h3>Shreya's Developer Portfolio</h3>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+            </ul>
+          </div>
+          <div class="footer-third">
+            <ul>
+              <li>Projects</li>
+              <li>Contact Me</li>
+            </ul>
+          </div>
+          <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+          Copyright &#169 shreyakolekarportfolio.online | All rights reserved
+        </div>
+      </footer>
+  </body>
 </html>
